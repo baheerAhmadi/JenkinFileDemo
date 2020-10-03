@@ -13,5 +13,15 @@ echo "this is test"
 }
 }
 }
-}
 
+post {
+always{
+echo "Jekins file completed"
+}
+#success {
+#}
+#failure {
+#}
+
+}
+}
